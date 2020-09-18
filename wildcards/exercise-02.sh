@@ -14,7 +14,7 @@ shopt -s nullglob
 
 DATE=$(date +%F)
 
-read -p "Enter new file extension: " FILE_EXTENSION
+read -p "Enter file extension: " FILE_EXTENSION
 read -p "Enter file prefix: " FILE_PREFIX
 
 [ -z ${FILE_PREFIX} ] && FILE_PREFIX=$DATE
